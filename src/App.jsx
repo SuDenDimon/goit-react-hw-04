@@ -51,7 +51,7 @@ function App() {
 
   return (
     <>
-      <Toaster />
+      <Toaster position="top-right"/>
       <SearchBar onSubmit={handleSearch} />
       {error && <ErrorMessage message={error} />}
       {images.length > 0 && (
